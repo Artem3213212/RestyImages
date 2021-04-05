@@ -1,4 +1,4 @@
-FROM openresty/openresty:bionic
+FROM openresty/openresty:alpine-apk
 
 RUN luarocks install etlua
 RUN luarocks install lua-resty-http
